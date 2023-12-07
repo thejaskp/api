@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test page</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div>This is a simple test to get data from a backend</div>
+    <div><span>Last update: </span><span id="time-container"></span></div>
+    <div>
+        <label for="data-input">Data to send:</label>
+        <input type="text" id="data-input">
+        <button onclick="sendData()">Send data</button>
+    </div>
+    <div>
+        <div id="sent-data-container"></div>
+    </div>
+    <hr>
+    <div>
+        <button onclick="getUsers()">Get user data</button>
+        <div id="result-container"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html> 
